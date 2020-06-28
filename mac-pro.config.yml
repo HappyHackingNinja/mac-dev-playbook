@@ -18,10 +18,8 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
-  - adoptopenjdk8
-  - adoptopenjdk11
-  - android-ndk
   - android-sdk
+  - android-studio
   - ant
   - autoconf
   - bash-completion
@@ -45,6 +43,8 @@ homebrew_taps:
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
+  - adoptopenjdk8
+  - adoptopenjdk11
   - docker
   - iterm2-beta
   - firefox-developer-edition
