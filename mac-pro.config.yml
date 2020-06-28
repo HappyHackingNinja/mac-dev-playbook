@@ -36,7 +36,6 @@ homebrew_installed_packages:
   - wget
 
 homebrew_taps:
-  - AdoptOpenJDK/openjdk
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-versions
