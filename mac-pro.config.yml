@@ -18,12 +18,19 @@ dotfiles_files:
 
 homebrew_installed_packages:
   # - ansible # Installed via Pip.
+  - adoptopenjdk8
+  - adoptopenjdk11
+  - android-ndk
+  - android-sdk
+  - ant
   - autoconf
   - bash-completion
   - git
+  - gradle
   - gpg
   - httpie
   - libevent
+  - maven
   - nmap
   - ssh-copy-id
   - cowsay
@@ -31,13 +38,17 @@ homebrew_installed_packages:
   - wget
 
 homebrew_taps:
+  - AdoptOpenJDK/openjdk
   - homebrew/core
   - homebrew/cask
+  - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
   - docker
-  - firefox
+  - iterm2-beta
+  - firefox-developer-edition
+  - multipass
   - vagrant
 
 # See `geerlingguy.mas` role documentation for usage instructions.
