@@ -36,14 +36,15 @@ homebrew_installed_packages:
   - wget
 
 homebrew_taps:
+  - AdoptOpenJDK/openjdk
   - homebrew/core
   - homebrew/cask
   - homebrew/cask-versions
 
 homebrew_cask_appdir: /Applications
 homebrew_cask_apps:
-  - adoptopenjdk8
-  - adoptopenjdk11
+  - AdoptOpenJDK/openjdk/adoptopenjdk8
+  - AdoptOpenJDK/openjdk/adoptopenjdk11
   - docker
   - iterm2-beta
   - firefox-developer-edition
